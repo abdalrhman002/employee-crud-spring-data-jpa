@@ -1,0 +1,41 @@
+# Maven Build Artifacts
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDEs
+## IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+## Spring Tool Suite (STS) / Eclipse
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+## VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Dependency Directories
+dependency-reduced-pom.xml
+
+# Local Environment Files
+application-local.properties
+application-dev.properties
+
+# Database Files
+*.db
+*.sql
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db
